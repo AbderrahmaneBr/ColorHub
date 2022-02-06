@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ColorHub</title>
+    <title>ColorLab</title>
 </head>
 <body>
+    <p><span id="hex"></span> in RGB is R:<span id="r"></span> G:<span id="g"></span> B:<span id="b"></span> (Using Color().toRGB(hex))</p>
     <div style="display: flex; flex-direction: column;">
-    <p>Matching Colors</p>
+    <p>Matching Colors (using Color().GenerateMatchingColorPalette())</p>
     <br>
     <div style="display:flex;flex-direction:row;">
         <div id="0" style="width:150px; height:150px;"></div>
@@ -14,7 +15,7 @@
         <div id="3" style="width:150px; height:150px;"></div>
     </div>
 
-    <p>Random Colors</p>
+    <p>Random Colors (using Color().GenerateRandomColorPalette())</p>
     <br>
     <div style="display:flex;flex-direction:row;">
         <div id="rand_0" style="width:150px; height:150px;"></div>
