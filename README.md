@@ -3,14 +3,10 @@
 <p>ColorHub is a JavaScript Library that helps in Color Managament, Generating and Converting.</p>
 
 <h2>Index</h2>
-<ul>
-    - [Installation](#Installation)
-    <br>
-    - [Usage](#Usage)
-    <!--<br>
-    - [FAQ](#FAQ)-->
-</ul>
 
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  
 # Installation
 <p>Installing npm package:</p>
 
