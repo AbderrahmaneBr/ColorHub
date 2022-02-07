@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ColorLab</title>
+</head>
+<body>
+    <style>
+        p{
+            font-family: Helvetica;
+            font-size: 18px;
+        }
+        #r{
+            color: red;
+        }
+        #g{
+            color: green;
+        }
+        #b{
+            color: blue;
+        }
+        #explanation{
+            color: rgb(70, 70, 70);
+        }
+    
+    </style>
+    <p><span id="hex"></span> in RGB is <span id="r"></span><span id="g">G: </span><span id="b"></span> <span id="explanation">(Using Color().toRGB(hex))</span></p>
+    <div style="display: flex; flex-direction: column;">
+    <p>Matching Colors <span id="explanation">(using Color().GenerateMatchingColorPalette("Monochromatic"))</span></p>
+    <br>
+    <div style="display:flex;flex-direction:row;">
+        <div id="0" style="width:150px; height:150px;"></div>
+        <div id="1" style="width:150px; height:150px;"></div>
+        <div id="2" style="width:150px; height:150px;"></div>
+        <div id="3" style="width:150px; height:150px;"></div>
+    </div>
+
+    <p>Random Colors <span id="explanation">(using Color().GenerateRandomColorPalette(4))</span></p>
+    <br>
+    <div style="display:flex;flex-direction:row;">
+        <div id="rand_0" style="width:150px; height:150px;"></div>
+        <div id="rand_1" style="width:150px; height:150px;"></div>
+        <div id="rand_2" style="width:150px; height:150px;"></div>
+        <div id="rand_3" style="width:150px; height:150px;"></div>
+    </div>
+    </div> 
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
