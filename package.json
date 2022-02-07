@@ -1,0 +1,13 @@
+{
+    "name" : "colorhub",
+    "version" : "1.0.0",
+    "description" : "A JavaScript Library that helps on Color Management, Converting and Generating",
+    "main" : "ColorHub.js",
+    "keywords" : ["ColorHub", "Color Hub"],
+    "author" : "Abderrahmane Bourri",
+    "repository": {
+        "type": "git",
+        "url": "git@gitlab.com:AbderrahmaneBr/ColorHub.git"
+      }
+      
+} 
