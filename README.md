@@ -98,6 +98,7 @@ console.log(Color().GenerateColor("RGB"));
 
 - <h3>Color().GenerateRandomColorPalette(Length)</h3>
 <p>This Function gets one parameter (Length), it consists on <b>Generating a Random Color Palette</b> as an array, the number of colors generated depends on the Length given.</p>
+
 ```javascript
 console.log(Color().GenerateRandomColorPalette(4));
 // Output: Array(4) [ "#66F8E7", "#3F69C2", "#04F7FE", "#3878C4" ]
